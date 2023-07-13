@@ -1,0 +1,404 @@
+/* #header {
+  width: 100%;
+  height: 60px; 
+  display: flex;
+  justify-content: space-between;
+} */
+
+ /* a{
+top: 17px;
+left: 1084px;
+width: 181px;
+height: 46px;
+
+border: 1px solid #FFFFFF;
+border-radius: 3px;
+opacity: 1;}
+
+top: 29px;
+left: 1015px;
+width: 43px;
+height: 23px;
+
+text-align: left;
+font: normal normal medium 16px/25px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1; */
+
+
+
+
+img{
+top: 0px;
+left: 0px;
+width: 1366px;
+height: 480px;
+/* UI Properties */
+background: transparent linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%) 0% 0% no-repeat padding-box;
+mix-blend-mode: multiply;
+opacity: 1;
+/* z-index:0; */
+}
+
+#icon {
+  float: left;
+}
+h1 {
+  color: white;
+}
+
+button{
+  z-index:10;
+  font:white;
+}
+#search {
+  width: 100%;
+  height: 480px;
+  background-image: url(../image/BackgroundZomato.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:absolute;
+  opacity:1;
+}
+
+a{
+padding:10px;margin:5px;border:1px solid black;width:150px;text-decoration:none;
+}
+
+.Edlogo {
+  font-size: 80px;
+  /* position: absolute;
+  background-color: white; */
+  border-radius: 50%;
+  margin-left: 45%;
+  margin-top: 7%;
+
+  top: 60px;
+  left: 20px;
+  width: 147px;
+  height: 147px;
+  /* UI Properties */
+  background: #f6f6f6 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  opacity: 1;
+  position:absolute;
+  
+}
+
+.card{
+  top: 636px;
+left: 113px;
+width: 360px;
+height: 160px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+position: absolute;
+}
+
+.card-img-top{
+  height: 160px;
+  width:160px;
+  object-fit: cover;
+}
+
+.Edlogo>span{
+  color:green;
+  margin-left: 25%;
+  left: 9px;
+  width: 68px;
+  height: 99px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 600 70px/106px Poppins;
+  letter-spacing: 0px;
+  color: #EB2929;
+  opacity: 1;
+  position: relative;
+}
+
+.heading {
+  /* margin-left: -220px;
+  margin-top: 22%;
+  font: normal normal 600 36px/55px Poppins;
+  color: white;
+  width:650px;
+  position:absolute; */
+  top:300px;
+left: 500px;
+width: 758px;
+height: 51px;
+text-align: left;
+font: normal normal 600 36px/55px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+position:absolute;
+}
+/* 
+#dropdown {
+  position: absolute;
+  margin-left: 35%;
+  margin-top: 28%;
+} */
+
+/* .restaurant-names{
+
+} */
+select {
+  height: 42px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#quickSearch {
+  margin-left: 63px;
+  margin-top: 485px;
+  width: 90%;
+  display: inline-block;
+  position:absolute;
+}
+
+.searchBoxes{
+  display:flex;
+  position:relative;
+  justify-content:center;
+  top:300px;
+}
+#quickHeading {
+  font: normal normal bold 30px/46px Poppins;
+  letter-spacing: 0px;
+  color: #192f60;
+  opacity: 1;
+}
+
+#quickHeading:hover {
+  font-size: 50px;
+}
+#quickSubHeading {
+  text-align: left;
+  font: normal normal normal 22px/27px Poppins;
+  letter-spacing: 0px;
+  color: #8c96ab;
+  opacity: 1;
+}
+
+/* .mainTileContainer {
+  display: grid;
+  gap: 30px;
+  justify-content: start;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.tileContainer {
+  float: left;
+  box-shadow: 10px 20px 15px rgb(201 184 184);
+  display:inline-block;
+}
+
+.tileItem1 {
+  float: left;
+  top: 636px;
+left: 113px;
+width: 360px;
+height: 160px;
+opacity: 1;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+position:absolute;
+}
+
+.tileItem2{
+  top: 636px;
+left: 503px;
+width: 360px;
+height: 160px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+
+.tileItem3{
+top: 636px;
+left: 893px;
+width: 360px;
+height: 160px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+
+.tileItem4{
+  top: 822px;
+left: 113px;
+width: 360px;
+height: 160px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+
+.tileItem5{
+  top: 822px;
+left: 503px;
+width: 360px;
+height: 160px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+}
+
+.tileItem6{
+  top: 822px;
+left: 893px;
+width: 360px;
+height: 160px;
+
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+position:absolute;
+}
+
+.tileItem1 > img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  position:absolute;
+  top:636px;
+  left:113px;
+
+}
+
+.tileItem2 > img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  position:absolute;
+  top:636px;
+  left:503px;
+}
+
+.tileItem3 > img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  position:absolute;
+  left:893px;
+  top:636px;
+  opacity:1;
+}
+
+.tileItem4 > img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  position:absolute;
+  top:822px;
+  left:113px;
+  opacity:1;
+}
+
+.tileItem5 > img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  position:absolute;
+  left:503px;
+  top:822px;
+  opacity:1;
+}
+
+.tileItem6 > img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  position:absolute;
+  opacity:1;
+  left:893px;
+  top:822px;
+  z-index:1;
+}
+
+.tileHeading {
+  margin-left: 4%;
+  float: left;
+  margin-top: 5%;
+  font-size: 24px;
+}
+
+.tileHeading > a {
+  text-align: left;
+  font: normal normal 600 24px/27px Poppins;
+  letter-spacing: 0px;
+  color: #192f60;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.tileSubheading {
+  float: left;
+  font: normal normal normal 14px/21px Poppins;
+  letter-spacing: 0px;
+  color: #8c96ab;
+  opacity: 1;
+  margin-top: -23%;
+  margin-left: 40%;
+
+} */
+
+/* .meal-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 20px;
+  grid-gap: 40px;
+} */
+
+/* .grid-container{
+  display: grid;
+  background-color:lightblue;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-rows:50px 200px;
+  gap:30px;
+   justify-content:space-evenly; 
+  align-content:space-around;
+  height:800px;
+  /* height is the size of the container for the align-content property to work */
+
+
+/* .item1{
+  /* grid-row:1/3; */
+  /* grid-column-start:1;
+  grid-column-end:3;
+  grid-row-start:1;
+  grid-row-end:3; */
+  /* grid-area:1/2/3/4; */
+  /* grid-template-columns:auto auto auto auto auto auto; */
+  /* grid-column-end:3;
+  background-color:green!important; */
+ */
+
+.cards {
+
+  display: grid;
+  
+  grid-template-columns: repeat(3, 1fr);
+  
+  grid-auto-rows: auto auto auto auto auto auto;
+  
+  grid-gap: 1rem;
+  
+  }
+
+  .card {
+
+    border: 2px solid #e7e7e7;
+    
+    border-radius: 4px;
+    
+    padding: .5rem;
+    
+    }
