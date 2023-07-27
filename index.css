@@ -1,6 +1,6 @@
 body{
   overflow-x:hidden;
-
+  font-family: Poppins;
 }
 
 img{
@@ -39,20 +39,24 @@ padding:10px;margin:5px;border:1px solid black;width:150px;text-decoration:none;
 }
 
 .Edlogo {
-  font-size: 80px;
-  border-radius: 50%;
-  margin-left: 45%;
-  margin-top: 7%;
-
-  top: 160px;
+  font-size:100px;
+  border-radius: 100%;
+  /* margin-left: 45%;
+  margin-top: 7%; */
+  /* top: 160px;
   left: 20px;
   width: 147px;
   height: 147px;
-  /* UI Properties */
+   */
   background: #f6f6f6 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
   opacity: 1;
   
+}
+
+.line-below-icon{
+  font-size:50px;
+  font: normal normal 600 36px/55px Poppins;
 }
 
 .card-img-top{
@@ -61,7 +65,7 @@ padding:10px;margin:5px;border:1px solid black;width:150px;text-decoration:none;
   object-fit: cover;
 }
 
-.Edlogo{
+/* .Edlogo{
   border-radius: 100%;
   color:green;
   margin-left: 25%;
@@ -70,14 +74,13 @@ padding:10px;margin:5px;border:1px solid black;width:150px;text-decoration:none;
   left: 9px;
   width: 68px;
   height: 99px;
-  /* UI Properties */
   text-align: center;
   font: normal normal 600 70px/106px Poppins;
   letter-spacing: 0px;
   color: #EB2929;
   opacity: 1;
  
-}
+} */
 
 .search{
     top:200rem;
@@ -127,9 +130,11 @@ select {
   opacity: 1;
 }
 
-#quickHeading:hover {
+/* #quickHeading:hover {
   font-size: 50px;
-}
+} */
+
+
 #quickSubHeading {
   text-align: left;
   font: normal normal normal 22px/27px Poppins;
@@ -138,6 +143,4 @@ select {
   opacity: 1;
 }
 
-.section>2ndRow{
 
-}
